@@ -51,7 +51,7 @@ const sendMail =  (req,res) => {
     })
 }
 
-const port = 3000 || process.env.PORT
+const port =9000
 app.use(json())
 app.use(cors())
 
